@@ -8,6 +8,7 @@
   padding-top: 80px;
   padding-left: 50px;
   padding-right: 50px;  
+  text-align: left;
    
     
 }
@@ -200,4 +201,34 @@ body, html {
     right: 12px;
     margin: 0;
   }
+
+  .box h4{
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 20px;
+  }
   
+
+  .reservation{
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .component{
+    
+    width:240px;
+    height: 200px;
+    
+  }
+
+  .component img{
+    width: 240px;
+    height: 180px;
+
+  }
+
+  .component h6{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 14px;
+  }
