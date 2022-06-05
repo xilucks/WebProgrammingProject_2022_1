@@ -1,0 +1,48 @@
+html, body {
+    height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+    
+ 
+}
+
+img{
+    position: relative;
+}
+
+.infoArea{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.imgArea{
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.imgArea img{
+    width: 100%;
+}
+
+.infoAndfunction{
+    
+    display: flex;
+}
+
+.locationAndStar{
+    display: inline-block;
+    width: 50%;
+}
+
+.functionArea{
+    width: 50%;
+    text-align: right;
+}
+.button{
+    display: inline-block;
+}
+
+
+
+
