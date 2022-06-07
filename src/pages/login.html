@@ -3,24 +3,30 @@
     <head>
         <title>로그인</title>
         <meta charset="UTF-8">
+        <link rel = "stylesheet" href = "../styles/login.css">
+
     </head>
 
     <body>
-       <div>
+        <div class = "logoArea">
+            <img src = "/public/icon/logo.png"/ alt = "로고">
+        </div>
+        <div class = "loginForm">    
+        <form name = "fo" method ="get">
+            <div>
+                ID : <input type="text" size = "15" value="">
+             </div>
+             <div>
+                 PassWord: <input type="password" size = "15" value="">
+             </div>
+             <div>
+                 <input type="submit" value="완료">
+             </div>
+        </form>
 
        </div>
 
-       <form name = "fo" method ="get">
-           <div>
-               ID : <input type="text" size = "15" value="">
-            </div>
-            <div>
-                PassWord: <input type="password" size = "15" value="">
-            </div>
-            <div>
-                <input type="submit" value="완료">
-            </div>
-       </form>
+      
 
     </body>
 </html>
