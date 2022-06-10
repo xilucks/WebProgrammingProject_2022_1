@@ -2,17 +2,87 @@ html, body {
     height: 100vh;
     margin-right: auto;
     margin-left: auto;
+    background: #eee;
     
- 
 }
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  
+    vertical-align: middle;
+    
+    box-shadow: 5px 5px 20px skyblue;
+    height: 30px;
+    padding: 1rem;
+    color: skyblue;
+    background: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 30;
+  
+  }
+
+
+  header img{
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+  }
+
+  header span{
+      margin-right: 6px;
+      font-size: 13ox;
+  }
+  header nav{
+      margin-right: 15px;
+  }
+  
+  nav{
+    vertical-align: middle;
+  
+  }
+
+  .userProfile{
+    width: 30px;
+    height: 30px;
+  }
+  
 
 img{
     position: relative;
+    vertical-align: middle;
+    text-align: center;
 }
 
-.infoArea{
+div{
+    box-shadow: 5px 5px 10px white;
+
+}
+
+
+
+
+.title{
+    background-color: white;
     padding-left: 200px;
     padding-right: 200px;
+    margin-bottom: 70px;
+    padding-bottom: 50px;
+    
+    
+}
+
+.infomation{
+    padding-top: 50px;
+    background-color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+   
 }
 
 .imgArea{
@@ -21,28 +91,52 @@ img{
 
 }
 
+
 .imgArea img{
     width: 100%;
 }
 
 .infoAndfunction{
-    
     display: flex;
 }
 
-.locationAndStar{
+.locationAndStar{   
     display: inline-block;
     width: 50%;
 }
 
 .functionArea{
+   
     width: 50%;
     text-align: right;
+    vertical-align: bottom;
+    bottom: 0px;
 }
-.button{
+button{
     display: inline-block;
 }
+.titleinformation{
+    position: relative;
+}
+.infomation img{
+    width: 100%;
+}
+
+.starArea{
+    margin-top:10px;
+}
 
 
+button{
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: white;
+    border-color: skyblue;
+    
+}
 
 
+h3{
+    font-size: 30px;
+}
