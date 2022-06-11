@@ -1,0 +1,237 @@
+html, body {
+    height: 100vh;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background: #eee;
+    display: inline-block;
+  
+    
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  
+    vertical-align: middle;
+    
+    box-shadow: 5px 5px 20px skyblue;
+    height: 60px;
+    padding: 1rem;
+    color: skyblue;
+    background: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 30;
+  
+  }
+  
+  
+  header img{
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+  }
+  
+  header span{
+      margin-right: 6px;
+      font-size: 13ox;
+  }
+  header nav{
+      margin-right: 15px;
+  }
+  
+  nav{
+    vertical-align: middle;
+  
+  }
+  
+  .userProfile{
+    width: 30px;
+    height: 30px;
+  }
+  
+
+img{
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.box{
+  background-color: white;
+  box-shadow: 5px 5px 10px white;
+  padding-left: 20%;
+  padding-right: 20%;
+
+ 
+
+}
+
+.itemInfo{
+  padding-top: 100px;
+  width: 100%;
+  display: inline-block;
+  display: flex;
+  vertical-align: middle;
+}
+
+.itemDetail{
+  vertical-align: middle;
+  padding-top: 20px;
+  margin-left: 50px;
+}
+
+.itemDetail p{
+  font-size: 20px;
+  font-weight:700;
+  margin-bottom: 20px;
+}
+
+.itemDetail img{
+  display: inline-block ;
+  width: 20px;
+}
+
+
+.mainImage{
+  width: 300px;
+
+}
+
+html, body {
+  box-sizing: border-box;
+  padding: 0;
+
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+  float: none;
+}
+
+/* ======== Calendar ======== */
+.my-calendar {
+  width: 700px;
+  
+  padding: 20px 20px 10px;
+  text-align: center;
+  font-weight: 800;
+  border: 1px solid #ddd;
+  cursor: default;
+}
+.my-calendar .clicked-date {
+  border-radius: 25px;
+  margin-top: 36px;
+  float: left;
+  width: 42%;
+  padding: 46px 0 26px;
+  background: #ddd;
+}
+.my-calendar .calendar-box {
+  float: right;
+  width: 58%;
+  padding-left: 30px;
+}
+
+.clicked-date .cal-day {
+  font-size: 24px;
+}
+.clicked-date .cal-date {
+  font-size: 130px;
+}
+
+.ctr-box {
+  padding: 0 16px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.ctr-box .btn-cal {
+  position: relative;
+  float: left;
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.ctr-box .btn-cal:after {
+  content: '<';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 25px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.ctr-box .btn-cal.next {
+  float: right;
+}
+.ctr-box .btn-cal.next:after {
+  content: '>';
+}
+
+.cal-table {
+  width: 100%;
+}
+.cal-table th {
+  width: 14.2857%;
+  padding-bottom: 5px;
+  font-size: 16px;
+  font-weight: 900;
+}
+.cal-table td {
+  padding: 3px 0;
+  height: 50px;
+  font-size: 15px;
+  vertical-align: middle;
+}
+.cal-table td.day {
+  position: relative;
+  cursor: pointer;
+}
+.cal-table td.today {
+  background: #ffd255;
+  border-radius: 50%;
+  color: #fff;
+}
+.cal-table td.day-active {
+  background: #ff8585;
+  border-radius: 50%;
+  color: #fff;
+}
+.cal-table td.has-event:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background: #FFC107;
+}
+
+#finish{
+  margin-top: 80px;
+  width: 300px;
+  height: 50px;
+  background-color: rgba(1, 169, 252, 0.2);
+  border-radius: 40px;
+  border-color: white;
+  color: gray;
+  font-weight: 500;
+  font-size: 18px;
+}
