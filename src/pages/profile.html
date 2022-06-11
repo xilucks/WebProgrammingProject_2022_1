@@ -3,27 +3,144 @@
     <head>
         <title>나의 프로필</title>
         <meta charset="UTF-8">
+        <link rel = "stylesheet" href = "../styles/profile.css">
 
     </head>
 
     <body>
-        <div class = "myProfile">
-
-        </div>
-
-        <div class = "places">
-            <div class = "reservation">
-
-            </div>
-
-            <div class = "like">
-
-            </div>
+        <header>
+            <img src = "/public/icon/logo.png" onclick="location.href = 'index.html'"/>
+            <nav>
+                <span onclick="location.href = 'index.html'">장소</span>
+                <span onclick="location.href = 'profile.html'">예약관리</span>
+                <span>이벤트</span>
+                <img class = "userProfile" src = "/public/icon/user.png" onclick="location.href = 'login.html'"/>
             
-            <div class = "visited">
-                
+            </nav>
+        </header>
+        <div class = "myProfile">
+            <img src = "/public/images/profile/profile.png"/>
+
+            <div class = "profileText">
+                <p>이름: 곰곰</p>
+                <p>예약 횟수: 3</p>
+                <p>선호태그: #전시회 #엑티비티</p>
             </div>
+
         </div>
+
+       <div>
+        <div class = "contnetLine">
+           
+                <div class="reservation">
+                    <h3>내가 예약한 장소</h3>
+                    <div class = "component" onclick = "location.href = 'service_info.html'">
+                        <img src = "/public/images/Content/waterbomb.jpeg" alt = "예약 이미지"/>
+                        <div class = "information">
+                            <h6>워터밤 2022</h6>
+                            <div>
+                                <img src = "/public/icon/map-pin.png"/>
+                                <label>경기도 수원시</label>
+                            </div>
+                            <div class = "starArea">
+                                <img src="/public/icon/fillstar.png"/>
+                                <img src="/public/icon/fillstar.png"/>
+                                <img src="/public/icon/fillstar.png"/>
+                                <img src="/public/icon/fillstar.png"/>
+                                <img src="/public/icon/fillstar.png"/>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+            </div>
+
+            <div class="reservation">
+                <h3>내가 좋아요한 장소</h3>
+                <div class = "component" onclick = "location.href = 'service_info.html'">
+                    <img src = "/public/images/Content/waterbomb.jpeg" alt = "예약 이미지"/>
+                    <div class = "information">
+                        <h6>워터밤 2022</h6>
+                        <div>
+                            <img src = "/public/icon/map-pin.png"/>
+                            <label>경기도 수원시</label>
+                        </div>
+                        <div class = "starArea">
+                            <img src="/public/icon/fillstar.png"/>
+                            <img src="/public/icon/fillstar.png"/>
+                            <img src="/public/icon/fillstar.png"/>
+                            <img src="/public/icon/fillstar.png"/>
+                            <img src="/public/icon/fillstar.png"/>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class = "component">
+                    <img src = "/public/images/Content/AWAposter.jpeg" alt = "예약 이미지"/>
+                    <div class = "information">
+                        <h6>우연히 웨스엔더슨 전시회</h6>
+                        <div>
+                            <img src = "/public/icon/map-pin.png"/>
+                            <label>서울시 광진구</label>
+                        </div>
+                        <div class = "starArea">
+                            <img src="/public/icon/fillstar.png"/>
+                            <img src="/public/icon/fillstar.png"/>
+                            <img src="/public/icon/fillstar.png"/>
+                            <img src="/public/icon/fillstar.png"/>
+                            <img src="/public/icon/star.png"/>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+
+        <div class="reservation">
+            <h3>내가 방문했던 장소</h3>
+            <div class = "component" onclick = "location.href = 'service_info.html'">
+                <img src = "/public/images/Content/timBurton.jpeg" alt = "예약 이미지"/>
+                <div class = "information">
+                    <h6>팀버튼 전시회</h6>
+                    <div>
+                        <img src = "/public/icon/map-pin.png"/>
+                        <label>서울시 강동구</label>
+                    </div>
+                    <div class = "starArea">
+                        <img src="/public/icon/fillstar.png"/>
+                        <img src="/public/icon/fillstar.png"/>
+                        <img src="/public/icon/fillstar.png"/>
+                        <img src="/public/icon/fillstar.png"/>
+                        <img src="/public/icon/fillstar.png"/>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class = "component">
+                <img src = "/public/images/Content/yosigoposter.png" alt = "예약 이미지"/>
+                <div class = "information">
+                    <h6>요시고 전시회</h6>
+                    <div>
+                        <img src = "/public/icon/map-pin.png"/>
+                        <label>서울시 종로구</label>
+                    </div>
+                    <div class = "starArea">
+                        <img src="/public/icon/fillstar.png"/>
+                        <img src="/public/icon/fillstar.png"/>
+                        <img src="/public/icon/fillstar.png"/>
+                        <img src="/public/icon/fillstar.png"/>
+                        <img src="/public/icon/star.png"/>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+
+        
+        </div>
+       </div>
 
     </body>
 </html>
